@@ -1,0 +1,5 @@
+/*NavBar*/
+
+.tooglenav li:first-child  {
+	margin-left: 0;
+}

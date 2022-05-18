@@ -1,0 +1,75 @@
+.site-footer {
+	padding: 2px !important;
+}
+
+.main_menu_wec li a{
+	font-size: 20px !important;
+}
+
+.main_menu_wec li a:hover{
+	background-color:lightblue !important;
+}
+
+.site h4, .num h4{
+  margin-bottom: 0 !important;
+}
+
+
+@media only screen and (max-width: 992px) {
+	 .about .heading-section, .course .heading-section{
+  	font-size: 100px !important;
+  	text-align: center;
+  }
+
+   .about .wec_about, .course .wec_course{
+  	font-size: 40px !important;
+  	text-align: center;
+  }
+
+
+}
+
+
+@media only screen and (max-width: 600px) {
+  .about .heading-section, .course .heading-section{
+  	font-size: 50px !important;
+  	text-align: center;
+  }
+
+   .about .wec_about, .course .wec_course{
+  	font-size: 30px !important;
+  	text-align: center;
+  }
+
+}
+
+
+/*===========================
+  Course Blade Frontend
+===========================*/
+
+.course {
+ min-height: 300px !important;
+ max-height: 300px !important;
+}
+
+
+
+/*===========================
+  Register Blade Frontend
+===========================*/
+
+.register-form {
+  text-align: center;
+}
+
+
+/*===========================
+Backend Admin Panel
+===========================*/
+
+.header .nav-wrap {
+    flex: 0 !important;
+    display: flex;
+    justify-content: space-between;
+}
